@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="DJNativeSwing">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/DJNativeSwing.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

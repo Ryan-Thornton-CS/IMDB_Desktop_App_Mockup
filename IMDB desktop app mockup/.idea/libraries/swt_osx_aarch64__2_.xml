@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="swt_osx_aarch64 (2)">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/swt_osx_aarch64.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>

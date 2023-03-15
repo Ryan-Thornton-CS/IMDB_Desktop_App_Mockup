@@ -1,9 +1,0 @@
-<component name="libraryTable">
-  <library name="swt_win_64">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/lib/swt_win_64.jar!/" />
-    </CLASSES>
-    <JAVADOC />
-    <SOURCES />
-  </library>
-</component>
