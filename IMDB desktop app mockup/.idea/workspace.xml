@@ -1,0 +1,451 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="d985db16-3c48-40dc-8b63-a8c66a3abbc4" name="Changes" comment="Fixed error with remove / add on watchlist at startup">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/AlternatingButtons.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/MenuBar.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/MenuBar.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/MovieDescription.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/MovieDescription.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/NextPrev.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/NextPrev.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ui/UserInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/ui/UserInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/watchList.json" beforeDir="false" afterPath="$PROJECT_DIR$/watchList.json" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
+  <component name="ProjectId" id="2GvOuV2CxII1eAuzhKulJNoq4q7" />
+  <component name="ProjectLevelVcsManager">
+    <OptionsSetting value="false" id="Update" />
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;ASKED_SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;Downloaded.Files.Path.Enabled&quot;: &quot;true&quot;,
+    &quot;Repository.Attach.Annotations&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.JavaDocs&quot;: &quot;false&quot;,
+    &quot;Repository.Attach.Sources&quot;: &quot;false&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary&quot;: &quot;JUnit5&quot;,
+    &quot;com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5&quot;: &quot;&quot;,
+    &quot;create.test.in.the.same.root&quot;: &quot;true&quot;,
+    &quot;last_directory_selection&quot;: &quot;C:/Users/ryan/OneDrive/Documents/GitHub/JMDB_F22_Team6/test&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/hatch/IdeaProjects/CS 240&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;preferences.pluginManager&quot;
+  }
+}</component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\ryan\OneDrive\Documents\GitHub\JMDB_F22_Team6\lib" />
+      <recent name="C:\Users\ryan\OneDrive\Documents\GitHub\JMDB_F22_Team6" />
+      <recent name="C:\Users\ryan\OneDrive\Documents\GitHub\JMDB_F22_Team6\src" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="Application.ProgramExecution">
+    <configuration name="DisplayTrailer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="DisplayTrailer" />
+      <module name="JMDB_F22_Team6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProgramExecution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ProgramExecution" />
+      <module name="JMDB_F22_Team6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserInterface" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="UserInterface" />
+      <module name="JMDB_F22_Team6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="WatchList" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="WatchList" />
+      <module name="JMDB_F22_Team6" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="DisplayTrailerMacTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="JMDB_F22_Team6" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="DisplayTrailerMacTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <list>
+      <item itemvalue="Application.DisplayTrailer" />
+      <item itemvalue="Application.UserInterface" />
+      <item itemvalue="Application.WatchList" />
+      <item itemvalue="Application.ProgramExecution" />
+      <item itemvalue="JUnit.DisplayTrailerMacTest" />
+    </list>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.ProgramExecution" />
+        <item itemvalue="Application.DisplayTrailer" />
+        <item itemvalue="Application.UserInterface" />
+        <item itemvalue="Application.WatchList" />
+        <item itemvalue="JUnit.DisplayTrailerMacTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="d985db16-3c48-40dc-8b63-a8c66a3abbc4" name="Changes" comment="" />
+      <created>1667265820213</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1667265820213</updated>
+      <workItem from="1667265822366" duration="2966000" />
+      <workItem from="1667268919522" duration="15024000" />
+      <workItem from="1667286661445" duration="2480000" />
+      <workItem from="1667314812311" duration="2963000" />
+      <workItem from="1667324990416" duration="13887000" />
+      <workItem from="1667413153447" duration="1256000" />
+      <workItem from="1667593194585" duration="624000" />
+      <workItem from="1667615350416" duration="223000" />
+      <workItem from="1667625448443" duration="5618000" />
+      <workItem from="1667673062316" duration="16652000" />
+      <workItem from="1667725302860" duration="921000" />
+      <workItem from="1667763538478" duration="10412000" />
+      <workItem from="1667806150106" duration="26533000" />
+      <workItem from="1667957613823" duration="3165000" />
+      <workItem from="1668048105777" duration="2814000" />
+      <workItem from="1668132624545" duration="8634000" />
+      <workItem from="1668144564023" duration="2664000" />
+      <workItem from="1668199367179" duration="12000" />
+      <workItem from="1668199413426" duration="7000" />
+      <workItem from="1668385023727" duration="967000" />
+      <workItem from="1668396098479" duration="778000" />
+      <workItem from="1668397600524" duration="1701000" />
+      <workItem from="1668404355819" duration="618000" />
+      <workItem from="1668637635305" duration="1013000" />
+      <workItem from="1669496509362" duration="596000" />
+      <workItem from="1669746668523" duration="942000" />
+      <workItem from="1669942082996" duration="5648000" />
+      <workItem from="1670104362815" duration="40000" />
+      <workItem from="1670120287265" duration="88000" />
+      <workItem from="1670187894201" duration="2446000" />
+      <workItem from="1670366057989" duration="14791000" />
+      <workItem from="1670401845796" duration="2414000" />
+      <workItem from="1670451285948" duration="18431000" />
+      <workItem from="1670477875895" duration="833000" />
+      <workItem from="1670537208299" duration="2004000" />
+      <workItem from="1670728431161" duration="8445000" />
+    </task>
+    <task id="LOCAL-00001" summary="Updated more to the searchResultDisplay method in SearchBar and the only thing left is to add action listeners to the JButtons.  I also updated some private variables within the class and updated the constructor a bit.  It still needs some fixing because it is not displaying properly when main is ran during testing.">
+      <created>1667275282683</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1667275282683</updated>
+    </task>
+    <task id="LOCAL-00002" summary="Updated more to the searchResultDisplay method in SearchBar and the only thing left is to add action listeners to the JButtons.  I also updated some private variables within the class and updated the constructor a bit.  It still needs some fixing because it is not displaying properly when main is ran during testing.">
+      <created>1667277263773</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1667277263773</updated>
+    </task>
+    <task id="LOCAL-00003" summary="Made SearchBar extend JFrame because it should be if it's using a JFrame as the base item.">
+      <created>1667279278364</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1667279278364</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Fixed the frame not showing, tweaked some sizes, ADD kicking in while studying sorry...">
+      <created>1667280087608</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667280087608</updated>
+    </task>
+    <task id="LOCAL-00005" summary="I changed from JButtons for the search results to a JComboBox and omg it feels so much nicer. ADD kicked in again while studying.......">
+      <created>1667284987475</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1667284987475</updated>
+    </task>
+    <task id="LOCAL-00006" summary="I changed from JButtons for the search results to a JComboBox and omg it feels so much nicer. ADD kicked in again while studying.......">
+      <created>1667285138657</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1667285138657</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Updated the SearchBarBackEnd searchResults method to take in another String that will be used as a filter selection later on.">
+      <created>1667315345791</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1667315345791</updated>
+    </task>
+    <task id="LOCAL-00008" summary="Updated the SearchBarBackEnd searchResults method to take in another String that will be used as a filter selection later on.">
+      <created>1667316507159</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1667316507159</updated>
+    </task>
+    <task id="LOCAL-00009" summary="Look what my ADD did to me at 430AM-5AM, Load a movies WIKI page PACMAN FTW.  If you hate it just change it LOL">
+      <created>1667639606095</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1667639606095</updated>
+    </task>
+    <task id="LOCAL-00010" summary="Look what my ADD did to me at 430AM-5AM, Load a movies WIKI page.  If you hate it just change it LOL">
+      <created>1667675856488</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1667675856488</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Mouse Icon spins when loading things, if you need to add it somewhere, just call UserInterface.loading and UserInterface.doneLoading.  Created the UI portion to the AdvancedFilterUI.  I'll rework SearchBarBackEnd to work with this, but it's going to be a bitch.">
+      <created>1667724153002</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1667724153002</updated>
+    </task>
+    <task id="LOCAL-00012" summary="Didn't like the first version of the AdvancedFilterUI, so I edited it.  I'll refactor it later.">
+      <created>1667726089483</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1667726089483</updated>
+    </task>
+    <task id="LOCAL-00013" summary="forHudson">
+      <created>1667764396965</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1667764396965</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Fixed load() method within WatchList to load json file when a hashmap was used to popualte it.  @Hudson">
+      <created>1667772404836</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1667772404836</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Fixed load() method within WatchList to load json file when a hashmap was used to popualte it.  @Hudson">
+      <created>1667772463407</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1667772463407</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Re-built project because of some weird glitch where SeaerchBarBackEnd wasn't registering as there.">
+      <created>1667772843656</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1667772843656</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Built onto backend more, but needs updated to handle advanced search option.  Added generic search options of Movies, Titles, and TV Series.  Then one more option of advanced that will now display the actual advanced search box.  The method to handle what is selected has been built, but is being worked on further.  The rest I forgot, so just look at differences.">
+      <created>1667814259186</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1667814259186</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Update: I am done with advanced search.  I, at this moment, hate advanced search and all it took....................................... Wayyyy too long... I am done for this week. Gl with testing it, I am sorry for the confusing ass advancedSearchMethod() and how the URL is actually formed.  I also updated an exception in WatchList because when you would remove from watchlist, it would give you an index out of bounds.  I made it return null when it was zero in the list and if someone tried removing something.  Then handled the null pointer exception.  I also kept my print statement, that I used to test my own code, in the code itself, so you can visualize how I am making the URL to the API.  I have included a JOptionPane that will pop up if no search results are found.  This happens with advanced search mostly.">
+      <created>1667893507910</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1667893507910</updated>
+    </task>
+    <task id="LOCAL-00019" summary="I've moved classes where they were supposed to go AKA UI/LIB/SRC folders">
+      <created>1668052798143</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1668052798143</updated>
+    </task>
+    <task id="LOCAL-00020" summary="Last push, I updated search results loading to work.">
+      <created>1668148633313</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1668148633313</updated>
+    </task>
+    <task id="LOCAL-00021" summary="Fixed project's dependencies.">
+      <created>1668396305643</created>
+      <option name="number" value="00021" />
+      <option name="presentableId" value="LOCAL-00021" />
+      <option name="project" value="LOCAL" />
+      <updated>1668396305643</updated>
+    </task>
+    <task id="LOCAL-00022" summary="Updates to DisplayTrailer method and class.  There is a bug, and it might lie with the button of display trailer or with DisplayTrailer class / method, but I'm not sure.  But when the button is clicked with different movies it seems as if the button is duplicating with each new movie clicked.">
+      <created>1668644751594</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1668644751594</updated>
+    </task>
+    <task id="LOCAL-00023" summary="House keeping aka some refactoring.">
+      <created>1668654832626</created>
+      <option name="number" value="00023" />
+      <option name="presentableId" value="LOCAL-00023" />
+      <option name="project" value="LOCAL" />
+      <updated>1668654832626</updated>
+    </task>
+    <task id="LOCAL-00024" summary="swt for aarch64 disappeared when I pulled to my mac.  Had to add back.">
+      <created>1668660873346</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1668660873346</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Testing what I could for SWTJarSelector.  Also, JarClassLoader is untestable as its mainly calling the parent class that it extends, which was created/test by who ever upkeep's the java library.  The class alone is just a workaround to add a Jar to the class path during runtime.">
+      <created>1670190344957</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1670190344957</updated>
+    </task>
+    <task id="LOCAL-00026" summary="I created a way for Mac users to experience the movie trailer off of their default browsers.  I also did refactoring using checkstyle and I deleted random Sout prints throughout the programs.... Lastly, I tested the files I created.  No functionality was changed for Window users.">
+      <created>1670368525612</created>
+      <option name="number" value="00026" />
+      <option name="presentableId" value="LOCAL-00026" />
+      <option name="project" value="LOCAL" />
+      <updated>1670368525612</updated>
+    </task>
+    <task id="LOCAL-00027" summary="Updated ProgramExecution with look and feel attributes of Nimbus and changed the color scheme. Deleted methods not being used in UserInterface.  I created a method within UserInterface to handle the creation of the home/trailer buttons.  If you touch my color scheme in ProgramExecution, I will freak out.  It took me too long to figure out what went where.">
+      <created>1670401460576</created>
+      <option name="number" value="00027" />
+      <option name="presentableId" value="LOCAL-00027" />
+      <option name="project" value="LOCAL" />
+      <updated>1670401460576</updated>
+    </task>
+    <task id="LOCAL-00028" summary="Made the menu items workable with everything besides theme atm.">
+      <created>1670460685944</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1670460685944</updated>
+    </task>
+    <task id="LOCAL-00029" summary="Made the themes of JMU/IMDB/Default/Dark Mode work.  There is one issue where the scroll bar on the JScrollPane of the wiki page updates the first time and then doesn't update from there on out.  Idk how to fix it.  If you want to do your theme, then copy and paste everything I did in each menuitems action listener and add your new menuitem to the parameters and the JMenu of options.">
+      <created>1670473752978</created>
+      <option name="number" value="00029" />
+      <option name="presentableId" value="LOCAL-00029" />
+      <option name="project" value="LOCAL" />
+      <updated>1670473752978</updated>
+    </task>
+    <task id="LOCAL-00030" summary="Fixed error with remove / add on watchlist at startup">
+      <created>1670474329069</created>
+      <option name="number" value="00030" />
+      <option name="presentableId" value="LOCAL-00030" />
+      <option name="project" value="LOCAL" />
+      <updated>1670474329069</updated>
+    </task>
+    <option name="localTasksCounter" value="31" />
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
+    <MESSAGE value="Made SearchBar extend JFrame because it should be if it's using a JFrame as the base item." />
+    <MESSAGE value="Fixed the frame not showing, tweaked some sizes, ADD kicking in while studying sorry..." />
+    <MESSAGE value="I changed from JButtons for the search results to a JComboBox and omg it feels so much nicer. ADD kicked in again while studying......." />
+    <MESSAGE value="Updated the SearchBarBackEnd searchResults method to take in another String that will be used as a filter selection later on." />
+    <MESSAGE value="Look what my ADD did to me at 430AM-5AM, Load a movies WIKI page PACMAN FTW.  If you hate it just change it LOL" />
+    <MESSAGE value="Look what my ADD did to me at 430AM-5AM, Load a movies WIKI page.  If you hate it just change it LOL" />
+    <MESSAGE value="Mouse Icon spins when loading things, if you need to add it somewhere, just call UserInterface.loading and UserInterface.doneLoading.  Created the UI portion to the AdvancedFilterUI.  I'll rework SearchBarBackEnd to work with this, but it's going to be a bitch." />
+    <MESSAGE value="Didn't like the first version of the AdvancedFilterUI, so I edited it.  I'll refactor it later." />
+    <MESSAGE value="forHudson" />
+    <MESSAGE value="Fixed load() method within WatchList to load json file when a hashmap was used to popualte it.  @Hudson" />
+    <MESSAGE value="Re-built project because of some weird glitch where SeaerchBarBackEnd wasn't registering as there." />
+    <MESSAGE value="Built onto backend more, but needs updated to handle advanced search option.  Added generic search options of Movies, Titles, and TV Series.  Then one more option of advanced that will now display the actual advanced search box.  The method to handle what is selected has been built, but is being worked on further.  The rest I forgot, so just look at differences." />
+    <MESSAGE value="Update: I am done with advanced search.  I, at this moment, hate advanced search and all it took....................................... Wayyyy too long... I am done for this week. Gl with testing it, I am sorry for the confusing ass advancedSearchMethod() and how the URL is actually formed.  I also updated an exception in WatchList because when you would remove from watchlist, it would give you an index out of bounds.  I made it return null when it was zero in the list and if someone tried removing something.  Then handled the null pointer exception.  I also kept my print statement, that I used to test my own code, in the code itself, so you can visualize how I am making the URL to the API.  I have included a JOptionPane that will pop up if no search results are found.  This happens with advanced search mostly." />
+    <MESSAGE value="I've moved classes where they were supposed to go AKA UI/LIB/SRC folders" />
+    <MESSAGE value="Last push, I updated search results loading to work." />
+    <MESSAGE value="Fixed project's dependencies." />
+    <MESSAGE value="Updates to DisplayTrailer method and class.  There is a bug, and it might lie with the button of display trailer or with DisplayTrailer class / method, but I'm not sure.  But when the button is clicked with different movies it seems as if the button is duplicating with each new movie clicked." />
+    <MESSAGE value="House keeping aka some refactoring." />
+    <MESSAGE value="swt for aarch64 disappeared when I pulled to my mac.  Had to add back." />
+    <MESSAGE value="Testing what I could for SWTJarSelector.  Also, JarClassLoader is untestable as its mainly calling the parent class that it extends, which was created/test by who ever upkeep's the java library.  The class alone is just a workaround to add a Jar to the class path during runtime." />
+    <MESSAGE value="I created a way for Mac users to experience the movie trailer off of their default browsers.  I also did refactoring using checkstyle and I deleted random Sout prints throughout the programs.... Lastly, I tested the files I created.  No functionality was changed for Window users." />
+    <MESSAGE value="Updated ProgramExecution with look and feel attributes of Nimbus and changed the color scheme. Deleted methods not being used in UserInterface.  I created a method within UserInterface to handle the creation of the home/trailer buttons.  If you touch my color scheme in ProgramExecution, I will freak out.  It took me too long to figure out what went where." />
+    <MESSAGE value="Made the menu items workable with everything besides theme atm." />
+    <MESSAGE value="Made the themes of JMU/IMDB/Default/Dark Mode work.  There is one issue where the scroll bar on the JScrollPane of the wiki page updates the first time and then doesn't update from there on out.  Idk how to fix it.  If you want to do your theme, then copy and paste everything I did in each menuitems action listener and add your new menuitem to the parameters and the JMenu of options." />
+    <MESSAGE value="Fixed error with remove / add on watchlist at startup" />
+    <option name="LAST_COMMIT_MESSAGE" value="Fixed error with remove / add on watchlist at startup" />
+  </component>
+  <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/JMDB_F22_Team6$BackEndAPIQueryTest.ic" NAME="BackEndAPIQueryTest Coverage Results" MODIFIED="1668146552030" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="true" />
+    <SUITE FILE_PATH="coverage/JMDB_F22_Team6$SWTJarSelectorTest.ic" NAME="SWTJarSelectorTest Coverage Results" MODIFIED="1670189275476" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+    <SUITE FILE_PATH="coverage/JMDB_F22_Team6$BackEndAPIQueryTest_searchResults.ic" NAME="BackEndAPIQueryTest.searchResults Coverage Results" MODIFIED="1670190122990" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="idea" COVERAGE_BY_TEST_ENABLED="false" COVERAGE_TRACING_ENABLED="false" />
+  </component>
+</project>
